@@ -1,4 +1,4 @@
-/* .app {
+.app {
     background: #f1f1f1;
     display: grid;  
     font-family: Arial, Helvetica, sans-serif;
@@ -7,20 +7,20 @@
     "conteudo"
     "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh 30px;
+    grid-template-rows: 50px 100vh auto;
 }
 
 .cabecalho {
-    background: #00cc99;
+    /* background: #00cc99; */
     grid-area: cabecalho;
 }
 
 .conteudo {
-    background: #ff8080;
+    /* background: #ff8080; */
     grid-area: conteudo;
 }
 
 .rodape {
-    background: #0099ff;
+    /* background: #0099ff; */
     grid-area: rodape;
-} */
+}
